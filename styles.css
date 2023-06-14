@@ -1,0 +1,47 @@
+* {
+  font-family: Poppins;
+}
+
+h1 {
+  text-align: center;
+}
+
+#board {
+  width: 350px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  background-color: rgb(53 205 177);
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#reset {
+  display: block;
+  margin: 20px auto;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  font-size: 1.3rem;
+  background: #686868;
+  color: #FFFFFF;
+  border: none;
+}
